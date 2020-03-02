@@ -35,5 +35,4 @@ You will be evaluated through the completion of 10 mini-projects.
 #### Skills to be acquired
 Interdisciplinary skills are taken into account for validating the unit: precision, seriousness, punctuality, professional behavior.
 
-##### Author
-**Corentin COUTRET-ROZET**
+Author **Corentin COUTRET-ROZET**

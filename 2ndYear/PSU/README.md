@@ -32,5 +32,4 @@ Next installment of the first year's UNIX system programming unit. All projects 
 * Organizational and personal (precision etc.) skills 
 * "Group work management" 
 
-##### Author
-**Corentin COUTRET-ROZET**
+Author **Corentin COUTRET-ROZET**

@@ -20,5 +20,4 @@ use of class to separate the projects into several parts that are LOGICAL and CO
 #### ABSTRACTION AND GENERIC PROGRAMMING
 use of polymorphism through inheritance in order to factorize common code and for more genericity.
 
-##### Author
-**Corentin COUTRET-ROZET**
+Author **Corentin COUTRET-ROZET**

@@ -4,11 +4,10 @@ This repository contains 1st year Epitech projects (Class 2023).
 
 ## SUMMARY
 
-* [**CPOOL**](https://github.com/sheiiva/Epitech/1stYear/CPOOL)
-* [**CPE**](https://github.com/sheiiva/Epitech/1stYear/CPE)
-* [**MATHS**](https://github.com/sheiiva/Epitech/1stYear/MATHS)
-* [**MUL**](https://github.com/sheiiva/Epitech/1stYear/MUL)
-* [**PSU**](https://github.com/sheiiva/Epitech/1stYear/PSU)
+* [**CPOOL**](https://github.com/sheiiva/Epitech/tree/master/1stYear/CPOOL)
+* [**CPE**](https://github.com/sheiiva/Epitech/tree/master/1stYear/CPE)
+* [**MATHS**](https://github.com/sheiiva/Epitech/tree/master/1stYear/MATHS)
+* [**MUL**](https://github.com/sheiiva/Epitech/tree/master/1stYear/MUL)
+* [**PSU**](https://github.com/sheiiva/Epitech/tree/master/1stYear/PSU)
 
-Author
-**Corentin COUTRET-ROZET**
+Author **Corentin COUTRET-ROZET**

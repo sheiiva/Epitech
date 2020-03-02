@@ -53,5 +53,4 @@ You will be evaluated through the completion of 10 mini-projects.
 * Modesty
 * C++ basic
 
-##### Author
-**Corentin COUTRET-ROZET**
+Author **Corentin COUTRET-ROZET**
