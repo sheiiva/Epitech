@@ -8,8 +8,8 @@ Next installment of the first year's UNIX system programming unit. All projects 
 
 
 # Projects
-* [Malloc](https://github.com/sheiiva/Epitech/2ndYear/PSU/PSU_2019_malloc)
-* [nm/objdump](https://github.com/sheiiva/Epitech/2ndYear/PSU/PSU_2019_nmobjdump)
+* [Malloc](https://github.com/sheiiva/Epitech/tree/master/2ndYear/PSU/PSU_2019_malloc)
+* [nm/objdump](https://github.com/sheiiva/Epitech/tree/master/2ndYear/PSU/PSU_2019_nmobjdump)
 
 
 ## SKILL TO BE COVERED:

@@ -6,7 +6,7 @@ Introducing to the Object Oriented Programming paradigm through modularization a
 
 
 # Projects
-* [NanoTekSpice](https://github.com/sheiiva/Epitech/2ndYear/OOP/OOP_nanotekspice_2019)
+* [NanoTekSpice](https://github.com/sheiiva/Epitech/tree/master/2ndYear/OOP/OOP_nanotekspice_2019)
 
 
 ## SKILLS TO BE ACQUIRED *in order to validate the unit*: 

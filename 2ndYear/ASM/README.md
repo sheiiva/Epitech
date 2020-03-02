@@ -6,7 +6,7 @@ Presentation of the **x86-64 Assembly** and the use of this low-level language f
 
 
 # Projects
-* [MiniLibC](https://github.com/sheiiva/Epitech/2ndYear/ASM/ASM_minilibc_2019)
+* [MiniLibC](https://github.com/sheiiva/Epitech/tree/master/2ndYear/ASM/ASM_minilibc_2019)
 
 
 #### The different covered subjects:
