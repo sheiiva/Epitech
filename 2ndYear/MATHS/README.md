@@ -8,7 +8,7 @@ You must be able to **create algorithms** by using mathematical methods, and be 
 
 # Projects
 * [201yams](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/201yams_2019)
-* [202unsold](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/102architect_2019)
+* [202unsold](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/202unsold_2019)
 * [203hotline](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/203hotline_2019)
 * [204ducks](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/204ducks_2019)
 * [205IQ](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/205IQ_2019)
