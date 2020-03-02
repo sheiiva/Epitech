@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+#coding: utf-8
+
+############################################
+#                MATHEMATICS               #
+############################################
+#                                          #
+#  MONFA-MATAS Patricica & ROZET Corentin  #
+#                                          #
+#          Project : 202unsold_2019        #
+#                                          #
+############################################
+
+from sys import argv
+
+from usage import help
+from compute import Compute
+from checkArgs import ArgumentManager
+from unsold import Unsold
+
+
+def main():
+
+    argsManager = ArgumentManager()
+
+    if argsManager.needHelp(argv):
+        help()
+    elif argsManager.checkArgs(argv) == 84:
+        exit (84)
+    else:
+        unsold = Unsold()
+        compute = Compute(unsold)
+        unsold.run()
+
+
+if __name__ == "__main__":
+    main()
