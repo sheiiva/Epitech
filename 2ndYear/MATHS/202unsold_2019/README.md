@@ -1,13 +1,9 @@
 202unsold
 ===
 
-====
-
 Time:       2 weeks
 Team:       2
 Language:   Python
-
-====
 
 The project
 ----
@@ -17,7 +13,7 @@ Steven gave his statistician friend a mission: to deduce from his past results t
 
 It appears that the probability is defined by the following formula (**a** and **b** being integers greater than 50, depending on the economic climate):
 
-    **(a−x)(b−y)(5a−150)(5b−150)**
+    (a−x)(b−y)(5a−150)(5b−150)
 
 Let’s call **X**, **Y** and **Z**, respectively, the random variables that represent “**the price of a sold jacket**”, “**the price of sold trousers**” and “**the price of a sold suit**”. Given the values of *a and *b*, your software must print:
 * an array summing up the joint law of(X, Y), and the marginal laws of X and Y
@@ -34,4 +30,4 @@ Let’s call **X**, **Y** and **Z**, respectively, the random variables that rep
 * a       constant computed from past results
 * b       constant computed from past results
 
-Author **Corentin COUTRET-ROZET || PATRICIA MONFA-MATAS**
+Author **Corentin COUTRET-ROZET** and **PATRICIA MONFA-MATAS**
