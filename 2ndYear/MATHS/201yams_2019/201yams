@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+#coding: utf-8
+
+############################################
+#                MATHEMATICS               #
+############################################
+#                                          #
+#  MONFA-MATAS Patricica & ROZET Corentin  #
+#                                          #
+#           Project : 201yams_2019         #
+#                                          #
+############################################
+
+from sys import argv
+
+from show_usage import help
+from check_args import ArgumentManager
+from yams import Yams
+
+def main():
+
+    argsManager = ArgumentManager()
+
+    if argsManager.needHelp(argv):
+        help()
+    elif argsManager.check_args(argv) == 84:
+        exit (84)
+    else:
+        yams = Yams(argsManager)
+        yams.compute()
+        yams.printOutput()
+
+
+if __name__ == "__main__":
+    main()
