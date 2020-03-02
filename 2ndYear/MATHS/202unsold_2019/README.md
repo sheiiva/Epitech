@@ -2,8 +2,11 @@
 ===
 
 Time:       2 weeks
+
 Team:       2
+
 Language:   Python
+
 
 The project
 ----
