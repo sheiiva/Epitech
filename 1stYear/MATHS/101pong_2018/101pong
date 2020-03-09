@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+#coding: utf-8
+
+############################################
+#                MATHEMATICS               #
+############################################
+#                                          #
+#       Verlhac Lilian & ROZET Corentin    #
+#                                          #
+#           Project : 101pong_2018         #
+#                                          #
+############################################
+
+from sys import argv
+
+from pong import Pong
+from checkArgs import ArgumentManager
+from usage import help
+
+
+def main():
+
+    argsManager = ArgumentManager()
+
+    if argsManager.needHelp(argv):
+        help()
+    elif argsManager.checkArgs(argv) == 84:
+        exit (84)
+    else:
+        pong = Pong()
+        angle = pong.compute()
+        pong.print(angle)
+
+
+if __name__ == "__main__":
+    main()
