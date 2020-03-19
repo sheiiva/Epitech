@@ -3,7 +3,7 @@ MiniLibC
 
 Time:       3 weeks
 
-Team:       2
+Team:       1
 
 Language:   x86-64Assembly
 
