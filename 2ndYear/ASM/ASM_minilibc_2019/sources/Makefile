@@ -11,12 +11,10 @@ PRINT		=	@echo -e
 RM          =   @rm -f
 
 ROOT_PATH		=	../
-INCLUDE_PATH	=	include/
-I_PATH			=	$(ROOT_PATH)$(INCLUDE_PATH)
 
 LIB		 	= 	$(ROOT_PATH)libasm.so
 
-override CFLAGS 	+=	-I./$(I_PATH)
+override CFLAGS 	+=
 override LDFLAGS 	+= 	-L./$(ROOT_PATH)
 override LDLIBS 	+=	-lasm
 ASFLAGS				=	-f elf64

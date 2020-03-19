@@ -22,9 +22,8 @@ REC_FUNC		=	generic/
 ROOT_PATH		=	../
 I_PATH			=	include/
 SOURCE_PATH		=	$(ROOT_PATH)sources/
-SOURCE_I_PATH	=	$(ROOT_PATH)$(I_PATH)
 
-override CFLAGS	    +=	-I./$(I_PATH) -I./$(SOURCE_I_PATH) --coverage -fPIE
+override CFLAGS	    +=	-I./$(I_PATH) --coverage -fPIE
 override LDFLAGS    += 	-L./$(ROOT_PATH)
 override LDLIBS     +=	-lasm -lcriterion -ldl
 
