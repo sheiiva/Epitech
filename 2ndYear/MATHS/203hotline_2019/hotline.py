@@ -45,35 +45,44 @@ class Hotline():
 
         maths = Math()
 
+        def computeOverload(l:list) -> float:
+            res = 0
+            for i in range(26):
+                res += l[i]
+            return 1 - res
+
         def binomialDistributions():
             init = time()
-            overload = 0
             p = self._d / (3600 * 8)
+            bi = []
             for i in range (0, 51):
-                bi = maths.binomial(3500, i, p)
-                if (i > 25):
-                    overload += bi
-                print("{:d} -> {:.3f}".format(i, bi), end='')
+                bi.append(maths.binomial(3500, i, p))
+                print("{:d} -> {:.3f}".format(i, bi[-1]), end='')
                 if (i+1) % 5 == 0:
                     print()
-                else:
+                elif i != 50:
                     print("\t", end='')
-            print("\nOverload: {:.1f}%".format(overload * 100))
+            if self._d > 320:
+                print("\nOverload: 100%")
+            else:
+                print("\nOverload: {:.1f}%".format(computeOverload(bi) * 100))
             print("Computation time: {:.2f}ms".format(((time()-init) * 100)))
-        
-        def poissonDistributions():
 
+        def poissonDistributions():
             init = time()
             people = 3500 * (self._d / (3600 * 8))
-            overload = 0
+            bi = []
             for i in range (0, 51):
-                p = exp(-people) * pow(people, i) / factorial (i)
-                if (i > 25):
-                    overload += p
-                print("{:d} -> {:0.3f}\t".format(i, p), end='')
+                bi.append(exp(-people) * pow(people, i) / factorial(i))
+                print("{:d} -> {:0.3f}".format(i, bi[-1]), end='')
                 if (i+1) % 5 == 0:
                     print()
-            print("\nOverload: {:.1f}%".format(overload * 100))
+                elif i != 50:
+                    print("\t", end='')
+            if self._d > 320:
+                print("\nOverload: 100%")
+            else:
+                print("\nOverload: {:.1f}%".format(computeOverload(bi) * 100))
             print("Computation time: {:.2f}ms".format((time() - init) * 100))
 
         print("Binomial distribution:")

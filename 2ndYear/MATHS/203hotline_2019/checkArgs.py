@@ -35,9 +35,19 @@ class ArgumentManager():
             if not isNum(argv[1]) or not isNum(argv[2]):
                 print("Arguments might be digits. Please retry with -h.")
                 return 84
+            elif int(argv[1]) < 0 or int(argv[2]) < 0:
+                print("Digits might have value greater than 0. Please retry with -h.")
+                return 84
+            elif (int(argv[1]) - int(argv[2])) < 0:
+                print("Wrong values. Please retry with -h.")
+                return 84                
         elif len(argv) == 2:
             if not isNum(argv[1]):
                 print("Arguments might be digits. Please retry with -h.")
+                return 84
+            elif int(argv[1]) < 0:
+                print(int(argv[1]))
+                print("Digits might have value greater than 0. Please retry with -h.")
                 return 84
         else:
             print("Wrong number of arguments. Please retry with -h.")

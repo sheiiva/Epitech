@@ -19,7 +19,7 @@ class Math():
         
         """
         Returns binomial coefficients of (n k)
-            return n! / k!(n -k)!
+            return n! / k!(n - k)!
         """
 
         return factorial(n) // (factorial(k) * factorial(n-k))
