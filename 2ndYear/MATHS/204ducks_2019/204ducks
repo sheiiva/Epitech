@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+#coding: utf-8
+
+############################################    __(o )
+#                MATHEMATICS               #    ===  |
+############################################        | \___/|
+#                                          #        \ \=== |
+#  MONFA-MATAS Patricica & ROZET Corentin  #         \_\==/
+#                                          #           ||
+#          Project : 204ducks_2019         #          ===
+#                                          #---------------------
+############################################---------------------
+
+from sys import argv
+
+from usage import help
+from checkArgs import ArgumentManager
+from ducks import Ducks
+
+
+def main():
+
+    argsManager = ArgumentManager()
+
+    if argsManager.needHelp(argv):
+        help()
+    elif argsManager.checkArgs(argv) == 84:
+        exit (84)
+    else:
+        ducks = Ducks()
+        ducks.run()
+
+
+if __name__ == "__main__":
+    main()
