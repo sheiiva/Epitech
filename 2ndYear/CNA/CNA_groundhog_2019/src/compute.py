@@ -60,12 +60,8 @@ class Compute():
 
         if not periodIsPast:
             return
-        tmp = groundhog._values.copy()
-        tmp.reverse()
-        tmp = tmp[:groundhog._period]
-        tmp.reverse()
+        tmp = groundhog._values[len(groundhog._values) - groundhog._period:]
         groundhog._s = np.std(tmp)
-        return
 
     def computeSwitch(self, groundhog, last, periodIsPast):
         
@@ -85,11 +81,31 @@ class Compute():
             return
         if isSwitch(last, groundhog._r):
             groundhog._alerts = True
+            groundhog._switches.append(groundhog._r)
         else:
             groundhog._alerts = False
 
-        # append in groundhog._switches.appen(X)
-        return
+    def getBollingerBands(self, groundhog):
+        
+        """
+        Compute Bollinger Bands and append the weirdest value to the ._bollingerValues list.
+        """
+
+        def averageOverPeriod(values, period) :
+            return sum(values[len(values) - period:]) / period
+
+        average = averageOverPeriod(groundhog._values, groundhog._period)
+        bandHight = average + (2 * groundhog._s)
+        bandLow = average - (2 * groundhog._s)
+
+        if (bandHight - bandLow > 0):
+            bvalue = (groundhog._values[-1] - bandLow) / (bandHight - bandLow)
+            if (bvalue > 0.5):
+                groundhog._bollingerValues.append(1 - bvalue)
+            else :
+                groundhog._bollingerValues.append(bvalue)
+        else:
+            exit(84)
 
     def process(self, groundhog, day):
 
@@ -104,3 +120,5 @@ class Compute():
         self.computeR(groundhog, periodIsPast)
         self.computeS(groundhog, (day>=(groundhog._period - 1)))
         self.computeSwitch(groundhog, last, periodIsPast)
+        if (day >= groundhog._period):
+            self.getBollingerBands(groundhog)

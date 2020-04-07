@@ -11,24 +11,13 @@
 #                                          #
 ############################################
 
-from sys import argv
+def help():
 
-from src.checkArgs import ArgumentManager
-from src.groundhog import Groundhog
-from src.usage import help
+    """
+    Show usage of the program.
+    """
 
-
-def main() -> int:
-
-    argsManager = ArgumentManager()
-
-    if argsManager.needHelp(argv):
-        help()
-    elif argsManager.checkArgs(argv) == 84:
-        return 84
-    else:
-        groundhog = Groundhog()
-        groundhog.run()
-
-if __name__ == "__main__":
-    main()
+    print("SYNOPSIS\n"
+            "\t./groundhog period\n\n"
+            "DESCRIPTION\n"
+            "\tperiod\t\tthe number of days defining a period")

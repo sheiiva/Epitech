@@ -13,7 +13,7 @@
 
 from sys import argv
 
-from compute import Compute
+from src.compute import Compute
 
 class Groundhog():
 
@@ -29,16 +29,8 @@ class Groundhog():
         self._alerts = None
         self._switches = []
         self._values = []
+        self._bollingerValues = []
         self._period = int(argv[1])
-
-    def help(self):
-
-        """Show usage of the program."""
-
-        print("SYNOPSIS\n"
-                "\t./groundhog period\n\n"
-                "DESCRIPTION\n"
-                "\tperiod\t\tthe number of days defining a period")
 
     def getInput(self):
 
@@ -55,13 +47,15 @@ class Groundhog():
             value = input()
             value = float(value)
         except KeyboardInterrupt:
-            exit(0)
+            exit(84)
+        except EOFError:
+            exit(84)
         except ValueError:
             if isEnd(value):
                 return value
             else:
                 print("Value must be a float.")
-                value = self.getInput()
+                exit(84)
         else:
             return value
 
@@ -98,10 +92,22 @@ class Groundhog():
             (sorted by decreasing weird-ness).
         """
 
+        weirdest = []
+
         print("Global tendency switched {} times".format(len(self._switches)))
-        self._switches.sort()
-        self._switches.reverse()
-        print("5 weirdest values are {}".format(self._switches[:5]))
+        if (len(self._values) < (self._period + 5)):
+            return
+        for i in range (5):
+            index = 0
+            tmp = max(self._values)
+            for v in range (0, len(self._bollingerValues)):
+                if tmp > self._bollingerValues[v]:
+                    index = v
+                    tmp = self._bollingerValues[v]
+            weirdest.append(self._values[index + self._period])
+            self._values.pop(index + self._period)
+            self._bollingerValues.pop(index)
+        print("5 weirdest values are {}".format(weirdest))
 
     def run(self):
 
@@ -113,6 +119,9 @@ class Groundhog():
         while True:
             value = self.getInput()
             if (value == "STOP"):
+                if (day < self._period):
+                    print("Need at least values of {} days to process.".format(self._period))
+                    exit(84)
                 break
             else:
                 self._values.append(value)
