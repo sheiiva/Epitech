@@ -7,15 +7,15 @@ You must be able to **create algorithms** by using mathematical methods, and be 
 
 
 # Projects
-* [201yams](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/201yams_2019)
-* [202unsold](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/202unsold_2019)
-* [203hotline](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/203hotline_2019)
-* [204ducks](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/204ducks_2019)
-* [205IQ](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/205IQ_2019)
-* [206neutrinos](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/206neutrinos_2019)
-* [207demography](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/207demography_2019)
-* [208dowels](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/208dowels_2019)
-* [209poll](https://github.com/sheiiva/Epitech/tree/master/2ndYear/MATHS/209poll_2019)
+* [201yams](https://github.com/sheiiva/201yams)
+* [202unsold](https://github.com/sheiiva/202unsold)
+* [203hotline](https://github.com/sheiiva/203hotline)
+* [204ducks](https://github.com/sheiiva/204ducks)
+* [205IQ](https://github.com/sheiiva/205IQ)
+* [206neutrinos](https://github.com/sheiiva/206neutrinos)
+* [207demography](https://github.com/sheiiva/207demography)
+* [208dowels](https://github.com/sheiiva/208dowels)
+* [209poll](https://github.com/sheiiva/209poll)
 
 
 ## SUBJECTS COVERED:
@@ -35,4 +35,4 @@ You will be evaluated through the completion of 10 mini-projects.
 #### Skills to be acquired
 Interdisciplinary skills are taken into account for validating the unit: precision, seriousness, punctuality, professional behavior.
 
-Author **Corentin COUTRET-ROZET**
+Author [**Corentin COUTRET-ROZET**](https://github.com/sheiiva)
