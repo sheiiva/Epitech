@@ -1,9 +1,8 @@
 # COMPUTER NUMERICAL ANALYSIS
 
 ## Unit description
-#### Probablilty and Statistics Unit.
 
-You must be able to **create algorithms** by using mathematical methods, and be at ease with **graphic tools** (plotting different kinds of curves).    
+You must be able to **create algorithms** by using mathematical methods, and be at ease with **graphic tools** (plotting different kinds of curves).
 
 
 # Projects
