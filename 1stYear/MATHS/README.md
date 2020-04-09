@@ -1,7 +1,7 @@
 # MATHS
 
 # Projects
-* [101pong](https://github.com/sheiiva/Epitech/tree/master/1stYear/MATHS/101pong_2018)
+* [101pong](https://github.com/sheiiva/101pong_2018)
 * [102architect](https://github.com/sheiiva/Epitech/tree/master/1stYear/MATHS/102architect_2018)
 * [103cipher](https://github.com/sheiiva/Epitech/tree/master/1stYear/MATHS/103cipher_2018)
 * [104intersection](https://github.com/sheiiva/Epitech/tree/master/1stYear/MATHS/104intersection_2018)
