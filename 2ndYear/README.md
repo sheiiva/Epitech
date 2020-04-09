@@ -10,4 +10,4 @@ This repository contains 2nd year Epitech projects (Class 2023).
 * [**OBJECT-ORIENTED PROGRAMMING**](https://github.com/sheiiva/Epitech/tree/master/2ndYear/OOP)
 * [**UNIX PROGRAMMING**](https://github.com/sheiiva/Epitech/tree/master/2ndYear/PSU)
 
-Author **Corentin COUTRET-ROZET**
+Author [**Corentin COUTRET-ROZET**](https://github.com/sheiiva)
