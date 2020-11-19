@@ -16,6 +16,6 @@ All the notions and technologies you will see in this module will be useful for 
 # Projects
 * [**Popeye**](https://github.com/sheiiva/popeye) (containerization with [**Docker**](https://www.docker.com/))
 * [**my_marvin**](https://github.com/sheiiva/my_marvin) (automation with [**Jenkins**](https://www.jenkins.io/))
-* Bernstein (orchestration with [**Kubernetes**](https://kubernetes.io/))
+* [**Bernstein**](https://github.com/sheiiva/bernstein) (orchestration with [**Kubernetes**](https://kubernetes.io/))
 
 Author [**Corentin COUTRET-ROZET**](https://github.com/sheiiva)
