@@ -12,6 +12,7 @@ Operations research is the integrality of methods and models that allow **numero
 * [301dannon](https://github.com/sheiiva/301danonn)
 * [302separation](https://github.com/sheiiva/302separation)
 * [303make](https://github.com/sheiiva/303make)
+* [304pacman](https://github.com/sheiiva/304pacman)
 
 
 ## SUBJECTS COVERED:
