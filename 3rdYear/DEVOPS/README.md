@@ -14,7 +14,7 @@ All the notions and technologies you will see in this module will be useful for 
 * Orchestrating the deployment and management of Docker containers using Kubernetes
 
 # Projects
-* Popeye (containerization with [**Docker**](https://www.docker.com/))
+* [**Popeye**](https://github.com/sheiiva/popeye) (containerization with [**Docker**](https://www.docker.com/))
 * my_marvin (automation with [**Jenkins**](https://www.jenkins.io/))
 * Bernstein (orchestration with [**Kubernetes**](https://kubernetes.io/))
 
