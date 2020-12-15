@@ -7,6 +7,7 @@ All the fundamental elements of UNIX programming projects cover file and reposit
 
 # Projects
 * [printf](https://github.com/sheiiva/printf)
+* [navy](https://github.com/sheiiva/navy/)
 
 
 ### Skills to be acquired
